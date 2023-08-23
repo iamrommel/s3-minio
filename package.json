@@ -1,0 +1,38 @@
+{
+  "name": "s3-minio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrommel/s3-minio.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamrommel/s3-minio/issues"
+  },
+  "homepage": "https://github.com/iamrommel/s3-minio#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.266.0",
+    "@aws-sdk/node-http-handler" : "^3.374.0",
+    "dotenv": "16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.38",
+    "typescript": "5.1.6",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "tsx": "^3.12.7"
+  }
+}

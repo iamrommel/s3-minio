@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "strict": false,
+    "allowJs": false,
+    "lib": ["ES2022", "dom"],
+  },
+  "exclude": ["node_modules", "tmp"]
+}
